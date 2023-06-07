@@ -1,0 +1,16 @@
+@import '_config.sass'
+@import '_mixins.sass'
+
+img, video
+  width: 100%
+  height: auto
+  vertical-align: bottom
+
+.sp
+  display: block
+  +pc 
+    display: none !important
+.pc
+  display: block
+  +sp 
+    display: none !important
